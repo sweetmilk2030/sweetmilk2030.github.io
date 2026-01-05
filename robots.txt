@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: PowerMapper
+Allow: /
+Disallow : /api/
+Disallow: /styles/
+Disallow: /scripts/
+Disallow: /wp-admin/
+Disallow: /sitecore/
+
+Sitemap: http://www.hanthony2030.info/sitemap.xml
