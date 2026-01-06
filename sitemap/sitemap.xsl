@@ -33,7 +33,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Sitemap file</title>
+        <title>hanthony2030 Sitemap file</title>
       </head>
 
       <!-- Store in $fileType if we are in a sitemap or in a siteindex -->
@@ -45,7 +45,7 @@
       </xsl:variable>
 
       <body>
-        <h1>Sitemap file</h1>
+        <h1>hanthony2030 Sitemap file</h1>
         <xsl:choose>
           <xsl:when test="$fileType='sitemap'"><xsl:call-template name="sitemapTable"/></xsl:when>
           <xsl:otherwise><xsl:call-template name="siteindexTable"/></xsl:otherwise>
